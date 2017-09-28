@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::post('/login', 'api\AuthController@login');
 Route::post('/register', 'api\AuthController@register');
+Route::get('/test', 'TestController@test');
