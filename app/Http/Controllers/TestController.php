@@ -22,6 +22,7 @@ class TestController extends Controller
        $this->middleware('jwt.auth', ['except' => ['authenticate']]);
    }
 	public function test(){
-		return "done";
+		$users = User::all();
+		return $users;
 	}
 }
