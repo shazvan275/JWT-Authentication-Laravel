@@ -13,7 +13,7 @@ use App\User;
 
 class TestController extends Controller
 {
-    //
+    //helped article : https://scotch.io/tutorials/token-based-authentication-for-angularjs-and-laravel-apps
 	public function __construct()
    {
        // Apply the jwt.auth middleware to all methods in this controller
